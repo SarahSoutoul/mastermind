@@ -1,0 +1,124 @@
+/* DESIGN MAIN CONTAINER */
+html,
+body {
+  height: 100%;
+}
+
+body{
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  background-color: rosybrown;
+  transition: background-color .5s ease;
+}
+
+.game {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  
+}
+
+header {
+  text-align:left;
+}
+
+.textual {
+  width: 400px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* DESIGN GUESSES AND SLOTS */
+
+.option,
+.slot {
+  display: inline-block;
+  border-radius: 20%;
+  background-color: lightgrey;
+}
+
+#guesses {
+  display: inline-block;
+  background-color: rosybrown;
+  border-radius: 3px 0 0 3px;
+  padding: 15px 30px;
+  font-size: 0;
+}
+
+.guess { margin-top: 15px; }
+
+.option,
+.code .slot,
+.guess .slot {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+.code .slot + .slot,
+.guess .slot + .slot { margin-left: 10px; }
+
+.code {
+  border-bottom: 2px solid black;
+  padding-bottom: 15px;
+}
+
+/* DESIGN HINTS */
+
+#results {
+  vertical-align: bottom;
+  display: inline-block;
+  padding: 15px 6px;
+  background-color: rosybrown;
+  border-radius: 0 3px 3px 0;
+  font-size: 0;
+}
+
+.result {
+  height: 32px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.result .row { height: 10px; }
+.result .row + .row { margin-top: 5px; }
+
+.result .slot {
+  width: 10px;
+  height: 10px;
+}
+
+.result .slot + .slot { margin-left: 5px; }
+
+.result + .result { margin-top: 22px; }
+.hit { background-color: #000; }
+.almost { background-color: red; }
+
+
+#options {
+  margin: 0 auto;
+  padding: 25px 35px;
+  display: block;
+  font-size: 0;
+}
+
+#options button + button {
+  margin-left: 10px;
+}
+
+
+/* DESIGN COLORS */
+
+.green { background: green; }
+.red { background: darkred; }
+.yellow { background: goldenrod; }
+.purple { background: magenta; }
+
+

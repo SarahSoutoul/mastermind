@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+ <html> 
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>JS Mastermind</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,800,800italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <div class="game">
+    
+    <div class="container">
+      <header>
+          <h1>Mastermind</h1>
+          <button id="button">New Game</button>
+      </header>
+      <div id="guesses">
+        <div class="code row">
+          <div class="computer slot"></div>
+          <div class="computer slot"></div>
+          <div class="computer slot"></div>
+          <div class="computer slot"></div>
+        </div>
+        <div class="guess">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+        <div class="guess">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+        <div class="guess">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+        <div class="guess">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+        <div class="guess">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+        <div class="guess">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+        <div class="guess">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+        <div class="guess">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+      </div>
+
+      <div id="results">
+        <div class="result">
+          <div class="row">
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+          </div>
+        </div>
+        <div class="result">
+          <div class="row">
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+          </div>
+        </div>
+        <div class="result">
+          <div class="row">
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+          </div>
+        </div>
+        <div class="result">
+          <div class="row">
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+          </div>
+        </div>
+        <div class="result">
+          <div class="row">
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+          </div>
+        </div>
+        <div class="result">
+          <div class="row">
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+          </div>
+        </div>
+        <div class="result">
+          <div class="row">
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+          </div>
+        </div>
+        <div class="result">
+          <div class="row">
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+            <div class="result-slot slot"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+ 
+    
+    <div id="options" class="container">
+      <button value="1" id="green" class="option green"></button>
+      <button value="2" id="purple" class="option purple"></button>
+      <button value="3" id="red" class="option red"></button>
+      <button value="4" id="yellow" class="option yellow"></button>
+      
+    </div>
+  </div>
+
+  
+  <script src="app.js"></script>
+  
+</body>
+</html>
